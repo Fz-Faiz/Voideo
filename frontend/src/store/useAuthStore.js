@@ -8,7 +8,7 @@ const BASE_URL = import.meta.env.MODE === "development" ? "http://localhost:5002
 export const useAuthStore = create((set,get)=>({
     authUser:null,
     isSigningUp:false,
-    isLoggingIng:false,
+    isLoggingIn:false,
     isUpdatingProfile:false,
     onlineUsers: [],
     socket:null,
@@ -46,7 +46,7 @@ export const useAuthStore = create((set,get)=>({
     },
 
     login : async (data) => {
-        set({isLoggingIng: true});
+        set({isLoggingIn: true});
         try {
             const response = await axiosInstance.post("/auth/login",data)
             set({authUser : response.data});
