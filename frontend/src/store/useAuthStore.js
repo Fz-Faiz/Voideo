@@ -58,7 +58,7 @@ export const useAuthStore = create((set,get)=>({
             toast.error(error.response.data.message)
             
         }finally{
-            set({isLoggingIng : false});
+            set({isLoggingIn : false});
         }
     },
 
