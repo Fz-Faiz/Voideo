@@ -1,12 +1,19 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useAuthStore } from "../store/useAuthStore.js"
 import{Camera, Mail, User} from "lucide-react"
 
 const ProfilePage = () => {
   const {authUser, isUpdatingProfile, updateProfile} = useAuthStore();
+  const [ time , setTime] = useState();
 
   const [selectedImage , setSelectedImage] = useState(null);
-  console.log(authUser.createdAt?.split("T")[0])
+  useEffect(() => {
+    if (authUser?.updatedAt) {
+      setTime(authUser.updatedAt.split("T")[0]); 
+    }
+    
+  }, [authUser]); 
+
 
   const handleImageUpload = async (e) => {
     const file = e.target.files[0];
@@ -87,7 +94,7 @@ const ProfilePage = () => {
             <div className="space-y-3 text-sm">
               <div className="flex items-center justify-between py-2 border-b border-zinc-700">
                 <span>Member Since</span>
-                <span>{authUser.createdAt?.split("T")[0]}</span>
+                <span>{time}</span>
               </div>
               <div className="flex items-center justify-between py-2">
                 <span>Account Status</span>
