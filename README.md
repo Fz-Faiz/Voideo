@@ -1,94 +1,56 @@
+💬 Voideo – Real-Time Chat Application
 
-
-🎥 Voideo – Real-Time Chat Platform
-
-Voideo is a modern real-time communication platform that enables users to connect instantly through secure messaging. Built with scalability and performance in mind, the application delivers a fast, responsive chat experience while following clean architectural practices.
+A full-stack real-time messaging platform that enables users to communicate instantly through secure authentication and persistent chat functionality. Built with scalability and performance in mind, Voideo delivers a smooth and responsive communication experience.
 
 🚀 Features
 
-✅ User Authentication (Signup & Login)
-✅ Secure Password Handling
-✅ Real-Time Messaging
-✅ Persistent Chat History
-✅ Responsive UI
-✅ Profile Management
-✅ Scalable Backend Architecture
+Secure user authentication (Signup/Login/Logout)
 
-🌐 Live Demo
+Real-time messaging powered by Socket.io
 
-🔗 Live Application: https://your-live-link.com
-(Replace with your deployed URL — Vercel, Render, Railway, AWS, etc.)
+Persistent chat history
+
+User profile management
+
+Responsive and modern UI
+
+Scalable backend architecture
 
 🛠️ Tech Stack
 
-Frontend
+Frontend: React, Modern CSS
 
-React.js
+Backend: Node.js, Express.js
 
-Modern CSS / UI Practices
+Real-Time Communication: Socket.io
 
-Axios / Fetch
+Database: MongoDB
 
-Backend
+Authentication: JWT
 
-Node.js
+📌 Upcoming Features
 
-Express.js
+🎥 Video calling using WebRTC
 
-Socket.io
+Group chat functionality
 
-Database
+Media sharing (images, files, voice notes)
 
-MongoDB
+Message reactions & read receipts
 
-Authentication
+End-to-end encryption
 
-JWT (JSON Web Tokens)
+AI-powered smart replies (future enhancement)
 
-📸 Screenshots
+🔗 Project Link
 
-⚠️ Replace image paths after uploading screenshots to your repository.
+👉 Live Project
 
+📷 Screenshots
 🔐 Login Page
-![Login](./screenshots/login.png)
 
 📝 Signup Page
-![Signup](./screenshots/signup.png)
 
 👤 Profile Section
-![Profile](./screenshots/profile.png)
 
-💬 Chat Interface
-![Chat](./screenshots/chat.png)
-
-➕ Additional Features
-![Feature Name](./screenshots/feature.png)
-
-🌟 Project Highlights
-
-Designed with a modular architecture for scalability.
-
-Uses WebSockets for instant message delivery.
-
-Clean, intuitive UI focused on user experience.
-
-Built using modern full-stack development practices.
-
-Production-style project structure.
-
-🔮 Future Plans
-🚀 Video Calling with WebRTC
-
-Future versions of Voideo will introduce peer-to-peer video communication powered by WebRTC, enabling:
-
-High-quality video calls
-
-Ultra-low latency communication
-
-Screen sharing
-
-Group video rooms
-
-End-to-end encrypted media streams
-
-The vision is to evolve Voideo into a complete real-time communication platform.
+💬 Chat Area
