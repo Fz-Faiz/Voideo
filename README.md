@@ -1,34 +1,34 @@
-💬 Voideo – Real-Time Chat Application
+# 💬 Voideo – Real-Time Chat Application
 
 A full-stack real-time messaging platform that enables users to communicate instantly through secure authentication and persistent chat functionality. Built with scalability and performance in mind, Voideo delivers a smooth and responsive communication experience.
 
-🚀 Features
+## 🚀 Features
 
-Secure user authentication (Signup/Login/Logout)
+- Secure user authentication (Signup/Login/Logout)
 
-Real-time messaging powered by Socket.io
+- Real-time messaging powered by Socket.io
 
-Persistent chat history
+- Persistent chat history
 
-User profile management
+- User profile management
 
-Responsive and modern UI
+- Responsive and modern UI
 
-Scalable backend architecture
+- Scalable backend architecture
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-Frontend: React, Modern CSS
+-Frontend: React, Modern CSS
 
-Backend: Node.js, Express.js
+- Backend: Node.js, Express.js
 
-Real-Time Communication: Socket.io
+- Real-Time Communication: Socket.io
 
-Database: MongoDB
+- Database: MongoDB
 
-Authentication: JWT
+- Authentication: JWT
 
-📌 Upcoming Features
+## 📌 Upcoming Features
 
 🎥 Video calling using WebRTC
 
